@@ -1,0 +1,14 @@
+there is a number guessing game
+this game will require a function, some variables and properties
+you enter a number to see if it matches the correct number
+create a function called game
+create variables to store information
+the logic is that there is a range of numbers already stored and the user enters a number which will be compared with those range of numbers 
+so one variable will have the lowest number in the range and another variable will have the highest number in the range
+the third variable will have the user's number 
+a getguess method will be created inside the game function that asks the user to enter a number and a prompt method as well will be used to store that number
+a previous guess variable is created and will be empty and used to push the new guess into it
+we also create a play method which uses the getguess method to prompt the user to enter a number using a condition(while loop)
+the new number entered will then be added to the prevguesses variable
+after every guess or entry a message will appear saying if the guess is too low, too high or correct with the number of guesses that have been entered
+as soon the correct number is matched the game will end

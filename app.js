@@ -13,14 +13,16 @@ const game = {
         //   return this.prevGuess;
         //   console.log(this.prevGuess);
         // }
+        // grab user input through a method
             
     },
     play: function() {
       this.secretNum = Math.floor(Math.random() * 
         (this.biggestNum - this.smallestNum + 1)) + this.smallestNum;
-        return this.secretNum;
+        this.secretNum;
         let newguess = 0;
         while(newguess > this.smallestNum.length && newguess < this.biggestNum.length);
+        newguess++; 
         console.log(newguess); {
           this.prevGuess.push(newguess);
           return this.prevGuess;
