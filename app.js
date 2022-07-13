@@ -5,16 +5,9 @@ const game = {
     secretNum: null,
     prevGuess: [],
     getGuess: function() {
-        console.log(`Enter a guess between ${this.smallestNum} and ${this.biggestNum}`)
-        // let newguess = 0;
-        // while(newguess > this.smallestNum.length && newguess < this.biggestNum.length)
-        // console.log(newguess); {
-        //   this.prevGuess.push(newguess);
-        //   return this.prevGuess;
-        //   console.log(this.prevGuess);
-        // }
-        // grab user input through a method
-            
+        guessNum = prompt(`Enter a guess between ${this.smallestNum} and ${this.biggestNum}`)
+        return guessNum;
+                   
     },
     play: function() {
       this.secretNum = Math.floor(Math.random() * 
